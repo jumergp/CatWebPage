@@ -3,11 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>CatPhoto app</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" type="text/css">
 </head>
 <body>
-    <h1>CatPhoto App</h1>
+    <p id="top">
+       <h1>CatPhoto App</h1> 
+    </p>
     <p>Click <a href="#">here</a> to check more cat photos</p>
     <img src="https://bit.ly/fcc-relaxing-cat" alt="cat image">
-    
+    <div>
+        <p>Things that cats loves:</p>
+        <ul>
+            <li>milk</li>
+            <li>cat nip</li>
+            <li>being them</li>
+        </ul>
+        <p>Top 3 things cats hates:</p>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+    </div>
+
+    <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
+        <div>
+          <label><input type="radio" name="indoor-outdoor" id="Indoor" checked>Indoor</label>
+            <label><input type="radio" name="indoor-outdoor" id="Outdoor">Outdoor</label></br>
+            <label><input type="checkbox" name="Personality" id="Loving" checked>Loving</label>
+            <label><input type="checkbox" name="Personality" id="Lazy">Lazy</label>
+            <label><input type="checkbox" name="Personality" id="Eneregtic">Eneregtic</label>  
+        </div>
+
+    <div>
+        <input type="text" id="catUrl" placeholder="cat Photo URL">
+        <input type="submit" value="submit">
+    </div>
+
+    <div>
+        <footer><a href="#top">Back to the Top</a></footer>
+    </div>
 </body>
 </html>
