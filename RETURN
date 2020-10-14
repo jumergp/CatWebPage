@@ -1,0 +1,53 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex ebb0dee..82a80a3 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -3,11 +3,45 @@[m
+ <head>[m
+     <meta charset="UTF-8">[m
+     <title>CatPhoto app</title>[m
+[32m+[m[32m    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" type="text/css">[m
+ </head>[m
+ <body>[m
+[31m-    <h1>CatPhoto App</h1>[m
+[32m+[m[32m    <p id="top">[m
+[32m+[m[32m       <h1>CatPhoto App</h1>[m[41m [m
+[32m+[m[32m    </p>[m
+     <p>Click <a href="#">here</a> to check more cat photos</p>[m
+     <img src="https://bit.ly/fcc-relaxing-cat" alt="cat image">[m
+[31m-    [m
+[32m+[m[32m    <div>[m
+[32m+[m[32m        <p>Things that cats loves:</p>[m
+[32m+[m[32m        <ul>[m
+[32m+[m[32m            <li>milk</li>[m
+[32m+[m[32m            <li>cat nip</li>[m
+[32m+[m[32m            <li>being them</li>[m
+[32m+[m[32m        </ul>[m
+[32m+[m[32m        <p>Top 3 things cats hates:</p>[m
+[32m+[m[32m        <ol>[m
+[32m+[m[32m            <li>flea treatment</li>[m
+[32m+[m[32m            <li>thunder</li>[m
+[32m+[m[32m            <li>other cats</li>[m
+[32m+[m[32m        </ol>[m
+[32m+[m[32m    </div>[m
+[32m+[m
+[32m+[m[32m    <form action="https://freecatphotoapp.com/submit-cat-photo"></form>[m
+[32m+[m[32m        <div>[m
+[32m+[m[32m          <label><input type="radio" name="indoor-outdoor" id="Indoor" checked>Indoor</label>[m
+[32m+[m[32m            <label><input type="radio" name="indoor-outdoor" id="Outdoor">Outdoor</label></br>[m
+[32m+[m[32m            <label><input type="checkbox" name="Personality" id="Loving" checked>Loving</label>[m
+[32m+[m[32m            <label><input type="checkbox" name="Personality" id="Lazy">Lazy</label>[m
+[32m+[m[32m            <label><input type="checkbox" name="Personality" id="Eneregtic">Eneregtic</label>[m[41m  [m
+[32m+[m[32m        </div>[m
+[32m+[m
+[32m+[m[32m    <div>[m
+[32m+[m[32m        <input type="text" id="catUrl" placeholder="cat Photo URL">[m
+[32m+[m[32m        <input type="submit" value="submit">[m
+[32m+[m[32m    </div>[m
+[32m+[m
+[32m+[m[32m    <div>[m
+[32m+[m[32m        <footer><a href="#top">Back to the Top</a></footer>[m
+[32m+[m[32m    </div>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
